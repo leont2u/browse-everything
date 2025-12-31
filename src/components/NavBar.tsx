@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="flex justify-between align-middle ml-20 mr-20 mt-7  ">
+    <div className="flex justify-between align-middle  mt-7  ">
       <h1 className="font-bold text-2xl">Area</h1>
       <div className="flex justify-between align-middle gap-10">
         <h1>Benefits</h1>
