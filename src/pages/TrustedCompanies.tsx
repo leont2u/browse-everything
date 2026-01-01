@@ -7,7 +7,7 @@ import logo6 from "../assets/images/logo6.png";
 
 const TrustedCompanies = () => {
   return (
-    <div className="mb-30">
+    <div className="mb-30 ">
       <h2 className="font-light text-[#6F6F6F] mb-10">Trusted by:</h2>
       <div className="flex justify-between">
         <img src={logo1} />
