@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Benefits from "./pages/Benefits";
 import HeroSection from "./pages/HeroSection";
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <TrustedCompanies />
       <Benefits />
+      <Footer />
     </div>
   );
 }
