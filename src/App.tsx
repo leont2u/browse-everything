@@ -4,6 +4,7 @@ import Benefits from "./pages/Benefits";
 import ConnectWithUs from "./pages/ConnectWithUs";
 import HeroSection from "./pages/HeroSection";
 import MapYourSuccess from "./pages/MapYourSuccess";
+import Testimonials from "./pages/Testimonials";
 import TrustedCompanies from "./pages/TrustedCompanies";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <TrustedCompanies />
       <Benefits />
+      <Testimonials />
       <MapYourSuccess />
       <ConnectWithUs />
       <Footer />
