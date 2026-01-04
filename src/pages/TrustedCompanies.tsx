@@ -9,7 +9,7 @@ const TrustedCompanies = () => {
   return (
     <div className="mb-30 ">
       <h2 className="font-light text-[#6F6F6F] mb-10">Trusted by:</h2>
-      <div className="flex justify-between">
+      <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
         <img src={logo1} />
         <img src={logo2} />
         <img src={logo3} />

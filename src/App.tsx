@@ -9,7 +9,7 @@ import TrustedCompanies from "./pages/TrustedCompanies";
 
 function App() {
   return (
-    <div className="mx-20 h-min-screen ">
+    <div className=" mx-5 lg:mx-20 h-min-screen  ">
       <NavBar />
       <HeroSection />
       <TrustedCompanies />

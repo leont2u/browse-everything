@@ -20,13 +20,13 @@ const MapYourSuccess = () => {
 
   return (
     <div className="mb-20">
-      <div className="flex justify-between mb-10">
-        <h1 className="text-[30px]">Map Your Success</h1>
+      <div className="flex flex-col  lg:flex-row lg:justify-between mb-10">
+        <h1 className="text-[30px] mb-5 lg:mb-0">Map Your Success</h1>
         <button className="rounded-[1000px] p-3 bg-[#DFECC6]">
           Discover More
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
         {success.map((index) => (
           <div>
             <h1 className="text-5xl mb-4 text-[#929292]">
