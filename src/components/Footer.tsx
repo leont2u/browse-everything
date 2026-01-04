@@ -2,7 +2,7 @@ import footerlogo from "../assets/images/footerlogo.png";
 const Footer = () => {
   return (
     <div className="mb-10">
-      <div className="flex gap-10 mb-10">
+      <div className="lg:flex gap-10 mb-10">
         <h1>Benefits</h1>
         <h1>Specifications</h1>
         <h1>How-to</h1>
